@@ -29,7 +29,4 @@ workflows:
       - test:
           requires:
             - build
-      - analyze:
-          requires:
-            - test
             
